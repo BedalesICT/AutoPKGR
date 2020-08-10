@@ -22,8 +22,6 @@
 		<key>NAME</key>
 		<string>Microsoft PowerPoint</string>
 	</dict>
-	<key>MinimumVersion</key>
-	<string>0.4.2</string>
 	<key>ParentRecipe</key>
 	<string>com.github.autopkg.download.MSPowerPoint2019</string>
 	<key>Process</key>
