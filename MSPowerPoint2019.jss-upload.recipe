@@ -23,7 +23,7 @@
 		<string>Microsoft PowerPoint</string>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>0.4.2</string>
+	<string>0.4.0</string>
 	<key>ParentRecipe</key>
 	<string>com.github.autopkg.download.MSPowerPoint2019</string>
 	<key>Process</key>
@@ -51,15 +51,6 @@
 			</dict>
 			<key>Processor</key>
 			<string>FileFinder</string>
-		</dict>
-		<dict>
-			<key>Arguments</key>
-			<dict>
-				<key>packageinfo_path</key>
-				<string>%found_filename%</string>
-			</dict>
-			<key>Processor</key>
-			<string>com.github.jss-recipes.MSOffice2016VersionChecker/MSOffice2016VersionChecker</string>
 		</dict>
 		<dict>
 			<key>Arguments</key>
