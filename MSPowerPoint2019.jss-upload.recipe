@@ -3,24 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest PowerPoint 2019 multilingual update pkg,
-		and appends the version to the end of the filename.
-
-		LOCALE_ID sets the locale for a descriptive text that will be
-		extracted from the Microsoft update metadata. See
-		https://msdn.microsoft.com/en-us/goglobal/bb964664.aspx
-		for more information about locale IDs.
-
-		VERSION currently only supports 'latest'.
-		Then, uploads to the JSS.</string>
+	<string>Downloads latest MS Office 2011 update package, uploads to JSS.</string>
 	<key>Identifier</key>
-    	<string>com.TheMacGuy.rocks.MSPowerPoint2019</string>
+	<string>com.TheMacGuy.rocks.MSPowerPoint2019</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
         <string>Software - Core Applications</string>
 		<key>NAME</key>
-		<string>Microsoft PowerPoint</string>
+		<string>Google Chrome</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
