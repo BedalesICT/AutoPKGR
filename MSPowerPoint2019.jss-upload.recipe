@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest Outlook 2019 multilingual update pkg,
+	<string>Downloads the latest Outlook 2016 multilingual update pkg,
 		and appends the version to the end of the filename.
 
 		LOCALE_ID sets the locale for a descriptive text that will be
@@ -15,6 +15,13 @@
 		Then, uploads to the JSS.</string>
 	<key>Identifier</key>
 	<string>com.TheMacGuy.rocks.MSPowerPoint2019</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Software - Core Applications</string>
+		<key>NAME</key>
+		<string>Microsoft Outlook</string>
+	</dict>
 	<key>MinimumVersion</key>
 	<string>0.4.2</string>
 	<key>ParentRecipe</key>
@@ -59,10 +66,6 @@
 			<dict>
 				<key>category</key>
 				<string>%CATEGORY%</string>
-				<key>os_requirements</key>
-				<string>%OS_REQUIREMENTS%</string>
-				<key>pkg_path</key>
-				<string>%pathname%</string>
 				<key>prod_name</key>
 				<string>%NAME%</string>
 			</dict>
